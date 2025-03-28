@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Como Ganhar Dinheiro Online - Ebook Exclusivo</title>
+    <title>Ebook: Como Ganhar Dinheiro Online - Guia Prático</title>
     <style>
-        /* CSS Reset and Base Styles */
+        /* Reset CSS */
         * {
             margin: 0;
             padding: 0;
@@ -14,7 +14,7 @@
         }
         
         body {
-            background-color: #f8f9fa;
+            background-color: #f5f7fa;
             color: #333;
             line-height: 1.6;
         }
@@ -25,53 +25,57 @@
             padding: 20px;
         }
         
-        /* Header Styles */
-        header {
+        /* Header */
+        .header {
             text-align: center;
-            padding: 40px 0;
+            padding: 40px 20px;
             background: linear-gradient(135deg, #2b5876 0%, #4e4376 100%);
             color: white;
             border-radius: 10px;
             margin-bottom: 30px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
         
-        h1 {
+        .header h1 {
             font-size: 2.5rem;
             margin-bottom: 15px;
         }
         
-        .subtitle {
+        .header p {
             font-size: 1.2rem;
-            opacity: 0.9;
             max-width: 700px;
             margin: 0 auto;
         }
         
-        /* Main Content Styles */
+        /* Content Sections */
+        .content-section {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
         .ebook-cover {
+            flex: 1;
             text-align: center;
-            margin: 30px 0;
         }
         
         .ebook-cover img {
             max-width: 300px;
-            border-radius: 5px;
+            border-radius: 8px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.2);
         }
         
+        .ebook-details {
+            flex: 2;
+        }
+        
+        /* Benefits */
         .benefits {
             background-color: white;
             padding: 30px;
             border-radius: 10px;
             margin-bottom: 30px;
             box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-        }
-        
-        .benefits h2, .faq h2 {
-            color: #2b5876;
-            margin-bottom: 20px;
-            text-align: center;
         }
         
         .benefit-item {
@@ -87,6 +91,7 @@
             margin-top: 3px;
         }
         
+        /* Price Section */
         .price-section {
             text-align: center;
             background-color: #2b5876;
@@ -102,28 +107,23 @@
             margin: 15px 0;
         }
         
-        .platform {
-            font-size: 1.2rem;
-            margin-bottom: 20px;
-        }
-        
+        /* CTA Button */
         .cta-button {
             display: inline-block;
             background-color: #FF6B6B;
             color: white;
-            padding: 15px 30px;
+            padding: 18px 40px;
             border: none;
             border-radius: 50px;
-            font-size: 1.1rem;
+            font-size: 1.2rem;
             font-weight: bold;
+            text-decoration: none;
             cursor: pointer;
-            text-align: center;
-            width: 100%;
-            max-width: 400px;
-            margin: 0 auto 30px;
             transition: all 0.3s ease;
             box-shadow: 0 5px 15px rgba(255,107,107,0.3);
-            text-decoration: none;
+            text-align: center;
+            margin: 20px auto;
+            width: fit-content;
         }
         
         .cta-button:hover {
@@ -149,59 +149,29 @@
             font-weight: bold;
             color: #2b5876;
             margin-bottom: 10px;
-            display: flex;
-            align-items: center;
         }
         
-        .faq-question:before {
-            content: "▶";
-            margin-right: 10px;
-            font-size: 0.8rem;
-            color: #FF6B6B;
-        }
-        
-        /* Footer */
-        footer {
-            text-align: center;
-            padding: 30px 0;
-            background-color: #2b5876;
-            color: white;
-            border-radius: 10px;
-        }
-        
+        /* Guarantee */
         .guarantee {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 15px;
+            text-align: center;
+            padding: 20px;
+            background-color: #f0f7ff;
+            border-radius: 10px;
+            margin-bottom: 30px;
         }
         
-        .guarantee-item {
-            display: flex;
-            align-items: center;
-        }
-        
-        .guarantee-item i {
-            margin-right: 8px;
-        }
-        
-        /* Responsive Design */
+        /* Responsive */
         @media (max-width: 768px) {
-            h1 {
-                font-size: 2rem;
+            .content-section {
+                flex-direction: column;
             }
             
-            .subtitle {
-                font-size: 1rem;
+            .header h1 {
+                font-size: 2rem;
             }
             
             .price {
                 font-size: 2.5rem;
-            }
-            
-            .cta-button {
-                padding: 12px 25px;
-                font-size: 1rem;
             }
         }
     </style>
@@ -209,81 +179,75 @@
 </head>
 <body>
     <div class="container">
-        <header>
+        <header class="header">
             <h1>Como Ganhar Dinheiro Online</h1>
-            <p class="subtitle">O Guia Completo para Afiliados, Infoprodutos e E-commerce</p>
+            <p>O Guia Prático para Iniciantes em Afiliados, Infoprodutos e E-commerce</p>
         </header>
         
-        <div class="ebook-cover">
-            <img src="https://via.placeholder.com/300x450/2b5876/ffffff?text=Ebook+Capa" alt="Capa do Ebook">
-        </div>
-        
-        <div class="benefits">
-            <h2>O Que Você Vai Aprender Neste Ebook</h2>
-            <div class="benefit-item">
-                <div class="benefit-icon">✔</div>
-                <div>Passo a passo para começar hoje mesmo</div>
+        <div class="content-section">
+            <div class="ebook-cover">
+                <img src="https://via.placeholder.com/300x450/2b5876/ffffff?text=Ebook+Capa" alt="Capa do Ebook">
             </div>
-            <div class="benefit-item">
-                <div class="benefit-icon">✔</div>
-                <div>Estratégias de afiliados que geram resultados</div>
-            </div>
-            <div class="benefit-item">
-                <div class="benefit-icon">✔</div>
-                <div>Como criar e vender infoprodutos do zero</div>
-            </div>
-            <div class="benefit-item">
-                <div class="benefit-icon">✔</div>
-                <div>Dicas para montar um e-commerce de sucesso</div>
-            </div>
-            <div class="benefit-item">
-                <div class="benefit-icon">✔</div>
-                <div>Ferramentas gratuitas e pagas para escalar seus ganhos</div>
+            <div class="ebook-details">
+                <h2>O Que Você Vai Aprender:</h2>
+                <div class="benefit-item">
+                    <div class="benefit-icon">✔</div>
+                    <div>Métodos comprovados de marketing digital</div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">✔</div>
+                    <div>Como começar como afiliado sem investimento</div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">✔</div>
+                    <div>Criação de infoprodutos simples e lucrativos</div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">✔</div>
+                    <div>Estratégias básicas de e-commerce</div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">✔</div>
+                    <div>Ferramentas gratuitas para começar hoje</div>
+                </div>
             </div>
         </div>
         
         <div class="price-section">
-            <h2>Quanto Custa?</h2>
+            <h2>Investimento</h2>
             <div class="price">R$ 50,00</div>
-            <div class="platform">Disponível na Kirvano</div>
+            <p>10 páginas de conteúdo direto ao ponto</p>
+            <p>Acesso imediato após a compra</p>
         </div>
         
-        <button class="cta-button">COMPRAR AGORA</button>
+        <div class="guarantee">
+            <h3><i class="fas fa-shield-alt"></i> Garantia de 7 Dias</h3>
+            <p>Se não gostar do conteúdo, devolvemos seu dinheiro sem perguntas!</p>
+        </div>
+        
+        <a href="https://pay.kirvano.com/45d4ab8b-0b57-437f-9592-80f3e46faff6" class="cta-button">
+            COMPRAR AGORA <i class="fas fa-arrow-right"></i>
+        </a>
         
         <div class="faq">
             <h2>Perguntas Frequentes</h2>
             <div class="faq-item">
-                <div class="faq-question">Para quem é este ebook?</div>
-                <p>Para iniciantes que querem empreender online ou ter uma renda extra.</p>
-            </div>
-            <div class="faq-item">
                 <div class="faq-question">Como recebo o ebook?</div>
-                <p>O acesso é 100% digital (PDF) através da plataforma Kirvano após a compra.</p>
+                <p>O acesso é 100% digital através da plataforma Kirvano. Você receberá o link para download imediatamente após a confirmação do pagamento.</p>
             </div>
             <div class="faq-item">
-                <div class="faq-question">Tem garantia?</div>
-                <p>Sim! 7 dias de garantia incondicional.</p>
+                <div class="faq-question">Para quem é este ebook?</div>
+                <p>Para iniciantes que querem começar a ganhar dinheiro online mas não sabem por onde começar.</p>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Quanto tempo de leitura?</div>
+                <p>Aproximadamente 30 minutos - conteúdo direto e prático.</p>
             </div>
         </div>
         
-        <footer>
-            <p>Não deixe para depois! O preço pode aumentar em breve.</p>
-            <button class="cta-button">QUERO MEU EBOOK AGORA!</button>
-            <div class="guarantee">
-                <div class="guarantee-item">
-                    <i class="fas fa-lock"></i>
-                    <span>Dados Protegidos</span>
-                </div>
-                <div class="guarantee-item">
-                    <i class="fas fa-shield-alt"></i>
-                    <span>Compra Segura</span>
-                </div>
-                <div class="guarantee-item">
-                    <i class="fas fa-headset"></i>
-                    <span>Suporte 24h</span>
-                </div>
-            </div>
-        </footer>
+        <a href="https://pay.kirvano.com/45d4ab8b-0b57-437f-9592-80f3e46faff6" class="cta-button">
+            QUERO MEU EBOOK AGORA <i class="fas fa-arrow-right"></i>
+        </a>
     </div>
 </body>
 </html>
